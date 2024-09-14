@@ -56,8 +56,6 @@ void  degree(Graph *G, int u){
  	List L;
  	make_null(&L);
  	for (int i=1; i<=G->n; i++){
- 		if (G->A[i][x] == 1)
- 			push_back(&L,i);
  		if (G->A[x][i] == 1)
  			push_back(&L,i);
 	 }
